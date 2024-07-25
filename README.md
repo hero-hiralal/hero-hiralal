@@ -1,14 +1,13 @@
-KALI-APKTOOL-FIX
+APKTOOL-FIX
 
-This script is to fix apktool in kali which is outdated.
+ABOUT SCRIPT>
+This script has been for a solution for apktool error which the user might have encountered while using msfvenom or maybe
+manually compiling android apps for development purposes. This is a typical fault with the kali repository which has some packages
+outdated as most likely the user will be greeting with a package induced error which in this scenerio points towards apktool 2.7.0+dsfg. This is more likely a automation script to save time from manually doing so.  
 
-When will encounter this error?
-While using msfvenom to create android payload you may encounter this error and it fails due to the deprecated version.
 
-This script is nothing but an automated update of apktool.
 
-If you check out current version of your apktool it must be 2.7.0+dsfg which indeed creates this error in the
-first place. 
 
-If you check out the code I have set apt package manager to hold the package as in future if you try to update
-apktool will be held back so that you dont install the outdated package from the kali repository.
+VERSION
+The version I have included in this script is 2.9.3 you can check out https://ibotpeaches.com for the latest version and change
+line 16's link after "wget" command to your desired version from IbotPeaches Website.

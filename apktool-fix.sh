@@ -15,7 +15,7 @@ chmod +x apktool
 #Then download the jar file of apktool.(This is a current version but may be different for you as they keep releasing every 2 months.. So just check out "https://bitbucket.org/iBotPeaches/apktool/downloads/" for updates)
 wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.9.3.jar
 
-#Now we have to move them to the usr/local/bin and with the same command lets change the name from "apktool)_2.9.3.jar" to just apktool .jar as it be easy for the wrapper script to find it.
+#Now we have to move them to the usr/local/bin and with the same command lets change the name from "apktool_2.9.3.jar" to just apktool.jar as it be easy for the wrapper script to find it.
 mv apktool_2.9.3.jar /usr/local/bin/apktool.jar
 
 #Lets move the wrapper script alongside with it
@@ -28,4 +28,6 @@ sudo apt-mark hold apktool
 
 # And  you're done fixing.. I would suggest to use this info as a script so that you  don't have to manually set it up (Only keep in mind that to check the latest version from the i-bot-peaches website.)
 
+#Test apktool
+apktool -h
 
